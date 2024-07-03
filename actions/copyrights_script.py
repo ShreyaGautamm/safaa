@@ -7,14 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1Daaj3PDRm3qJn6mMuIrqE-C1AGcj-3iJ
 """
 
-pip install psycopg2
-
 import psycopg2
-
-pip install pandas
-
 import pandas as pd
-
 import json
 
 def fetch_copyright_data():
