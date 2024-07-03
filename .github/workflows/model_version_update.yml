@@ -30,7 +30,7 @@ jobs:
 
     # Step 4: Run data retrieval script
     - name: Run data retrieval
-      run: python retrieve_data.py
+      run: python copyrights_script.ipynb
 
     # Step 5: Retrain model if needed
     - name: Retrain model
