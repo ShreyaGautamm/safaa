@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '5 18 * * *' # Runs daily at midnight
+    - cron: '11 18 * * *' # Runs daily at midnight
 
 jobs:
   retrain_model:
@@ -27,7 +27,6 @@ jobs:
       run: |
         pip install psycopg2 pandas
         pip install safaa
-        pip install -r requirements.txt
 
     # Step 4: Run data retrieval script
     - name: Run data retrieval
