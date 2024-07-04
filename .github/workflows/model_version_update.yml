@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '11 18 * * *' # Runs daily at midnight
+    - cron: '28 6 * * *' # Runs daily at midnight
 
 jobs:
   retrain_model:
